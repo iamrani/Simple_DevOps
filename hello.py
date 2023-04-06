@@ -7,4 +7,4 @@ def personalized_hello(name):
 
 if __name__ == "__main__":
     print(hello())
-    print(personalized_hello("Dominick Fournier"))
+    print(personalized_hello("Dominick"))
