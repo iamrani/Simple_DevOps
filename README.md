@@ -95,11 +95,11 @@ Specifies files and directories to be ignored by Git.
 
 Contains a Python script with two functions and a main block that demonstrates their usage.
 
-'<code>'def hello():
-   return "Hello, DevOps!"'</code>'
+<code>def hello():
+   return "Hello, DevOps!"</code>
    
-'<code>'def personalized_hello(name):
-   return f"Hello, {name}! Welcome to DevOps."'</code>'
+<code>def personalized_hello(name):
+   return f"Hello, {name}! Welcome to DevOps." </code>
    
 '</code>'if __name__ == "__main__":
     print(hello())
