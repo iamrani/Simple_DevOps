@@ -25,6 +25,7 @@ This file defines a GitHub Actions workflow that sets up a Python environment, i
 **Trigger Event**
 
 The workflow is triggered whenever changes are pushed to the GitHub repository.
+
 `on: [push]`
 
 **Job Definition**
