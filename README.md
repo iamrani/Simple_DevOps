@@ -94,10 +94,13 @@ Specifies files and directories to be ignored by Git.
 **Python Script (hello.py)**
 Contains a Python script with two functions and a main block that demonstrates their usage.
 
-   -def hello():
-       return "Hello, DevOps!"
-   def personalized_hello(name):
-    return f"Hello, {name}! Welcome to DevOps."
+   ``def hello():``
+   
+     ``  return "Hello, DevOps!"``
+   
+   ``def personalized_hello(name):``
+   
+   `` return f"Hello, {name}! Welcome to DevOps."``
 
     
 
