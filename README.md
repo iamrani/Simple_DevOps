@@ -83,10 +83,13 @@ Executes the hello.py script.
 **Git Configuration (.gitignore)**
 Specifies files and directories to be ignored by Git.
 
-`__pycache__/
-   *.pyc
-   *.pyo
-   *.pyd`
+``__pycache__/``
+
+ ``  *.pyc``
+ 
+ ``  *.pyo``
+ 
+ ``  *.pyd``
 
 **Python Script (hello.py)**
 Contains a Python script with two functions and a main block that demonstrates their usage.
