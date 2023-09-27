@@ -17,14 +17,14 @@ The project's goal is to automate the process of checking code style and running
 **Workflow Configuration (main.yml)**
 This file defines a GitHub Actions workflow that sets up a Python environment, installs dependencies, checks the code for style issues, and runs the hello.py script.
 
-Workflow Name
+**Workflow Name**
 name: CI/CD Pipeline
 
-Trigger Event
+**Trigger Event**
 The workflow is triggered whenever changes are pushed to the GitHub repository.
 on: [push]
 
-Job Definition
+**Job Definition**
 Defines a job named 'build' that runs on an Ubuntu latest version runner.
 jobs:
   build:
