@@ -48,7 +48,7 @@ Uses the actions/checkout action to fetch the repository's code.
     - name: Check out repository
       uses: actions/checkout@v2
 
-Step 2: Set up Python
+**Step 2: Set up Python**
 Uses the actions/setup-python action to set up the Python environment with version 3.9.
 
     - name: Set up Python
@@ -56,7 +56,8 @@ Uses the actions/setup-python action to set up the Python environment with versi
       with:
         python-version: 3.9
 
-Step 3: Install dependencies
+**Step 3: Install dependencies**
+
 Upgrades pip package manager and installs the flake8 Python linting tool.
 
     - name: Install dependencies
