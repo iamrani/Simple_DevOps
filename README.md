@@ -20,7 +20,7 @@ This file defines a GitHub Actions workflow that sets up a Python environment, i
 
 **Workflow Name**
 
-'''name: CI/CD Pipeline
+'''name: CI/CD Pipeline'''
 
 **Trigger Event**
 
