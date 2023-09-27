@@ -64,8 +64,10 @@ Upgrades `pip` package manager and installs the `flake8` Python linting tool.
         python -m pip install --upgrade pip
         pip install flake8
 
-Step 4: Lint with flake8
+**Step 4: Lint with flake8**
+
 Runs the flake8 linter on hello.py to check the code for style issues and errors.
+
     - name: Lint with flake8
       run: |
         flake8 hello.py
