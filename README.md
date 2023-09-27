@@ -42,12 +42,13 @@ Defines a job named 'build' that runs on an Ubuntu latest version runner.
 Defines the steps to be executed within the 'build' job.
 
 **Step 1: Check out the repository**
-Uses the actions/checkout action to fetch the repository's code.
+
+Uses the `actions/checkout` action to fetch the repository's code.
     - name: Check out repository
       uses: actions/checkout@v2
 
 **Step 2: Set up Python**
-Uses the actions/setup-python action to set up the Python environment with version 3.9.
+Uses the `actions/setup-python` action to set up the Python environment with version 3.9.
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -56,7 +57,7 @@ Uses the actions/setup-python action to set up the Python environment with versi
 
 **Step 3: Install dependencies**
 
-Upgrades pip package manager and installs the flake8 Python linting tool.
+Upgrades `pip` package manager and installs the `flake8` Python linting tool.
 
     - name: Install dependencies
       run: |
