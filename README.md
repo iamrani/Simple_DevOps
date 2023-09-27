@@ -95,8 +95,7 @@ Specifies files and directories to be ignored by Git.
 
 Contains a Python script with two functions and a main block that demonstrates their usage.
 
--
-def hello():
+<code>def hello():
    return "Hello, DevOps!"
     
 def personalized_hello(name):
@@ -105,5 +104,5 @@ def personalized_hello(name):
 
 if __name__ == "__main__":
     print(hello())
-    print(personalized_hello("Ranishka Fernando"))
+    print(personalized_hello("Ranishka Fernando"))</code>
 
