@@ -31,6 +31,7 @@ The workflow is triggered whenever changes are pushed to the GitHub repository.
 **Job Definition**
 
 Defines a job named 'build' that runs on an Ubuntu latest version runner.
+
 `jobs:
   build:
     runs-on: ubuntu-latest`
