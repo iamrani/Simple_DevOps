@@ -72,8 +72,10 @@ Runs the flake8 linter on hello.py to check the code for style issues and errors
       run: |
         flake8 hello.py
 
-Step 5: Run script
+**Step 5: Run script**
+
 Executes the hello.py script.
+
     - name: Run script
       run: |
         python hello.py
@@ -81,10 +83,10 @@ Executes the hello.py script.
 **Git Configuration (.gitignore)**
 Specifies files and directories to be ignored by Git.
 
-   __pycache__/
-   *.pyc
-   *.pyo
-   *.pyd
+   - __pycache__/
+      *.pyc
+      *.pyo
+      *.pyd
 
 **Python Script (hello.py)**
 Contains a Python script with two functions and a main block that demonstrates their usage.
