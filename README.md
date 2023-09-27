@@ -70,18 +70,18 @@ Executes the hello.py script.
 **Git Configuration (.gitignore)**
 Specifies files and directories to be ignored by Git.
 
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+   __pycache__/
+   *.pyc
+   *.pyo
+   *.pyd
 
 **Python Script (hello.py)**
 Contains a Python script with two functions and a main block that demonstrates their usage.
 
-def hello():
+~~~def hello():
     return "Hello, DevOps!"
 
-def personalized_hello(name):
+~~~def personalized_hello(name):
     return f"Hello, {name}! Welcome to DevOps."
 
 if __name__ == "__main__":
