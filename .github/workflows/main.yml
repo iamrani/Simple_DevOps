@@ -1,7 +1,7 @@
 #main.yml - defines a GitHub Actions workflow that sets up a Python environment, installs dependencies, checks the code for style issues, and runs the hello.py script. 
 
 #Sets the name of the workflow
-name: CI/CD Pipeline
+name: CI/CD Pipeline - Telesat
 
 #Specify the event that trigger the workflow -  In this case, the workflow is triggered whenever you push changes to your GitHub repository.
 on: [push]
