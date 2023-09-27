@@ -25,20 +25,20 @@ This file defines a GitHub Actions workflow that sets up a Python environment, i
 **Trigger Event**
 
 The workflow is triggered whenever changes are pushed to the GitHub repository.
-on: [push]
+`on: [push]`
 
 **Job Definition**
 
 Defines a job named 'build' that runs on an Ubuntu latest version runner.
-jobs:
+`jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest`
 
     
-Job Steps
+**Job Steps**
 Defines the steps to be executed within the 'build' job.
 
-Step 1: Check out the repository
+**Step 1: Check out the repository**
 Uses the actions/checkout action to fetch the repository's code.
     - name: Check out repository
       uses: actions/checkout@v2
