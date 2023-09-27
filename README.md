@@ -101,10 +101,7 @@ Contains a Python script with two functions and a main block that demonstrates t
 <code>def personalized_hello(name):
    return f"Hello, {name}! Welcome to DevOps." </code>
 
-   
-'&grave;
-if __name__ == "__main__":
-    print(hello())
-    print(personalized_hello("Ranishka Fernando"))\
-&grave;'
+`if __name__ == "__main__":`
+      `print(hello())`
+      `print(personalized_hello("Ranishka Fernando"))`
 
