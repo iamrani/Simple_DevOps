@@ -40,6 +40,7 @@ Defines a job named 'build' that runs on an Ubuntu latest version runner.
 
     
 **Job Steps**
+
 Defines the steps to be executed within the 'build' job.
 
 **Step 1: Check out the repository**
