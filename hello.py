@@ -1,5 +1,5 @@
 def hello():
-    return "Hello, Telesat!"
+    return "Hello, BTA/Ciena!"
 
 
 def personalized_hello(name):
